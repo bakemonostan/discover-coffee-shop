@@ -14,6 +14,14 @@ export default function Home() {
 
       <main className={styles.main}>
         <Banner buttonText={'View Stores Nearby'} />
+        <div className={styles.heroImage}>
+          <Image
+            alt='hero image'
+            src='/static/hero-image.png'
+            width={700}
+            height={400}
+          />
+        </div>
       </main>
     </div>
   );
